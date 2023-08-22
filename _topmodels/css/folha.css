@@ -1,0 +1,96 @@
+#fundo_pagina {
+    /* para poder chamar uma imagem de uma outra pagina que esta fora da pasta css é usado o url(../nome pasta/arquivo) */
+    background-image: url(../imagens/fund2.png);
+    background-color: #894694;
+}
+
+#topo {
+
+        width: 900px;
+        height: 388px;
+    /* DEFINE O MODO DE EXIBIÇÃO DA DIV COMO FLEXIVEL (FLEX) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* DEFINE MARGENS AUTOMATICAS PARA A DIV, CENTRALIZADO HORIZONTALMENTE NA PAGINA */
+    margin: auto;
+    border: 15px solid #894694;
+    box-shadow: 0px 5px 10px 0px #ffa9b8;
+}
+
+#container_navegacao {
+
+    background-color: #894694;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    box-shadow: 4px 0px 10px 0px #ff9c0a;
+
+}
+
+.navegacao {
+    background-color: #ff9c0a;
+    border-radius: 0px 20px 0px 20px;
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* ESTILO PARA ALTERAR FONTE */
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 4px 0px 10px 0px #ffa9b8;
+
+}
+
+.navegacao:hover {
+    /* efeito para quando passar o mouse mudar a cor do menu e tambem a expressura da fonte */
+    background-color: #f3753a;
+    transform: scale(1.1); 
+    font-weight: bold;
+
+}
+
+/* remove a decoração da ancora(link de sites ) */
+.link_nave {
+    /* decoraçao do texto */
+    text-decoration: none;
+    color: #131313;
+    /* grossura da fonte */
+    font-weight: 600;
+}
+
+#principal_texto {
+    background-color: #894694;
+    align-items: center;
+    display: flex;
+}
+.texto_home {
+    background-color: #894694;  
+    width: 930px;
+    height: 100%;
+    /* display inline ajusta o conteudo um embaixo do outro */
+    display: inline;
+    color: #e6dad1;
+    margin: auto;
+    /* alinhamento do texto */
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+    box-shadow: 4px 0px 10px 0px #ffa9b8;
+    text-align: justify;
+    font-size: 19px;
+}
+#rodape{
+    background-color: #894694;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
